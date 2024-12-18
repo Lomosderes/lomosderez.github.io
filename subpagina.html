@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Operaciones</title>
+  <link rel="stylesheet" href="los.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora</h1>
+    <form id="calculatorForm" class="form-container">
+      <div class="input-group input-1">
+        <label for="number1">Nota EC1:</label>
+        <input type="number" id="number1" required>
+      </div>
+      <div class="input-group input-2">
+        <label for="number2">Nota EC2:</label>
+        <input type="number" id="number2" required>
+      </div>
+      <div class="input-group input-3">
+        <label for="number3">Nota Parcial:</label>
+        <input type="number" id="number3" required>
+      </div>
+      <div class="input-group input-4">
+        <label for="number1">Nota EC3:</label>
+        <input type="number" id="number4" required>
+      </div>
+      <div class="input-group input-5">
+        <label for="number2">Nota EC4:</label>
+        <input type="number" id="number5" required>
+      </div>
+      <div class="input-group input-6">
+        <label for="number3">TA:</label>
+        <input type="number" id="number6" required>
+      </div>
+      <div class="input-group input-7">
+        <label for="number1">Final:</label>
+        <input type="number" id="number7" required>
+      </div>
+      
+      <!-- Botón de Calcular al costado del formulario -->
+      <button type="button" id="calculateButton">Calcular</button>
+      
+      <div class="result">
+        <label for="result">🎉🎉🎉APROBASTE🎉🎉🎉:</label>
+        <input type="text" id="result" readonly>
+      </div>
+    </form>
+  </div>
+  <script src="lom.js"></script>
+</body>
+</html>
